@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">    
+    <title>Formularze</title>
+</head>
+<body>
+    <h1>Formularz</h1>   
+    <form action="">
+        <label for="name">Imię:</label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="surname">Nazwisko:</label>
+        <br>
+        <input type="text" name="surname" id="surname">
+        <br>
+        <label for="region">Województwo:</label>
+        <br>
+        <select name="region" id="region">
+            <option value="">Mazowieckie</option>
+            <option value="">Lubelskie</option>
+            <option value="">Podlaskie</option>
+            <option value="">Śląskie</option>
+        </select>
+        <br>
+        <label for="street">Ulica:</label>
+        <br>
+        <input type="text" name="street" id="street">
+        <br>
+        <label for="home">Numer domu:</label>
+        <br>
+        <input type="number" name="home" id="home">
+        <br>
+        <label for="apartment">Numer mieszkania:</label>
+        <br>
+        <input type="number" name="apartment" id="apartment">
+        <br>
+        <label for="birth">Data urodzenia:</label>
+        <br>
+        <input type="date" name="date" id="date">
+        <br>
+        <label for="dr licence">Prawo jazdy:</label>
+        <br>
+        <input type="radio" value="tak" name="dr licence" id="">Tak
+        <input type="radio" value="nie" name="dr licence" id="">Nie
+        <br>
+        <label for="gender">Płeć:</label>
+        <br>
+        <input type="radio" value="female" name="gender" id="gender">Kobieta
+        <input type="radio" value="male" name="gender" id="gender">Mężczyzna
+        <input type="radio" value="non" name="gender" id="gender">Niebinarna
+        <input type="radio" value="other" name="gender" id="gender">Inne
+        <br>
+        <label for="phone">Telefon:</label>
+        <br>
+        <input type="number" name="phone" id="phone">
+        <br>
+
+        <p>Wiadomość</p>
+        <textarea name="description" id="" cols="30" rows="10" placeholder="Twoja wiadomość"></textarea>
+        <br>
+        <br>
+        <input type="submit" value = "Wyslij">
+    </form>
+</body>
+</html>

@@ -36,11 +36,11 @@
 		<label for="telefon">Nr. telefonu</label><br>
 		<input type="tel" id="telefon" name="telefon"><br>
 		<label for="telefon">Uwagi</label><br>
-		<textarea name="uwagi" rows="10" cols="30">Uwagi</textarea><br>
-			<input type="button" name="p1" value="OK">
-			<input type="reset" name="p2" value="Czyść">
-			<input type="submit" name="p3" value="Wyślij">
-			<input type="hidden" name="ukryte" value="0">
+		<textarea name="uwagi" rows="10" cols="30"></textarea><br>
+		<input type="button" name="p1" value="OK">
+		<input type="reset" name="p2" value="Czyść">
+		<input type="submit" name="p3" value="Wyślij">
+		<input type="hidden" name="ukryte" value="0">
 		
     </form>
 </body>
